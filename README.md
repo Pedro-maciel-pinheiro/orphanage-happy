@@ -1,107 +1,49 @@
-# Happy
+# Getting Started with Create React App
 
-<h1 align="center" >
-  <img alt="happy" title="happy" src="/github/happy.png" />
-</h1>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 💻 Project
+## Available Scripts
 
-Happy is a project meant to connect people to institutional foster care homes, bringing joy to many children.
-Project developed during the event Next Level Week #3, from [@rocketseat](https://github.com/rocketseat)
+In the project directory, you can run:
 
-<h2 id="tecnologias"> 🚀 Technologies </h2>
+### `yarn start`
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
-- [TypeScript](https://www.typescriptlang.org/)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 🎨 Preview
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-#### Web
+### `yarn test`
 
-<p align="center"><img src="./github/details.gif"/></p>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<h2 id="features-implementadas"> 🚧 Extra features </h2>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Aside from the basic features developed during the event, the extra features added to this project are listed below
+### `yarn eject`
 
-#### Web/API
-- New registrations are stored as pending, requiring them to be approved through a dashboard;
-- Restricted access to a dashboard to manage new registrations;
-- Logout button added in dashboard;
-- Page to display a success message after a new registration, with a link back to the main page;
-- Login and "Forgot my password" pages (using [nodemailer](https://nodemailer.com/) and [ethereal](https://ethereal.email/) to simulate email for password recovery);
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-#### Mobile
-- Added splash screen and icon;
-- Onboarding screens for first time access;
-- Added animated intro before displaying the main screen when redirected from Onboarding;
-- Split new registration in 2 steps (using ContextApi);
-- Added screens for successful registration and to cancel a registration;
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## :construction_worker: Installation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You need to have NodeJS installed before continuing.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+## Learn More
 
-### 🌐 Running the API
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Go to the directory
-```bash
-$ cd backend
-```
-
-Install the dependencies
-
-```bash
-$ yarn
-# or, with npm
-$ npm install
-```
-
-Run the application
-
-```bash
-$ yarn start
-# or, with npm
-$ npm start
-```
-
-### 💻 Running the web app
-
-#### openstreetmap
-
-This project uses openstreetmap. Head to "https://www.openstreetmap.org/#map=4/-15.13/-53.19" and create your account. Copy your public token, and paste it in a .env file located in the root of your project (use .env.example as guidance).
-
-Go to the directory
-
-```bash
-$ cd web
-```
-Install the dependencies
-
-```bash
-$ yarn
-# or, with npm
-$ npm install
-```
-
-Run the application
-
-```bash
-$ yarn start
-# or, with npm
-$ npm start
-```
-
-
-
-
-
+To learn React, check out the [React documentation](https://reactjs.org/).
+# orphanage-happy
 
 Released in 2020 under the [MIT license](https://github.com/guilhermecarmona/happy-nlw3/blob/main/LICENSE).
